@@ -8,7 +8,7 @@
         </span>
         un laboratorio de calidad.
     </blockquote>
-            <h1>Gestion de Examen</h1>
+            <h1>Gestion de Examen Especial</h1>
         <div class="d-grid gap-2 d-md-block my-2">
             <a href="examens/create" class="btn btn-primary">Crear Examen</a>
         </div>
