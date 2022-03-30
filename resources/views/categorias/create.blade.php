@@ -1,6 +1,6 @@
 @extends('layouts.plantillabase')
 @section('contenido')
-<h1>Crear Categoria</h1>
+<h1 class="">Crear Categoria</h1>
 <form action="/categorias" method="post">
     @csrf
     <div class="row">

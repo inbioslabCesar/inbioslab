@@ -1,17 +1,10 @@
 @extends('layouts.plantillabase')
 @section('contenido')
-<div class="columns-[10rem]">
-    <blockquote class="text-2xl font-semibold italic text-center text-gray-900">
-        Laboratorio Clinico
-        <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
-          <span class="relative text-white">inbioslab</span>
-        </span>
-        un laboratorio de calidad.
-    </blockquote>
+<div class="container">   
             <h1>Gestion de Examen Especial</h1>
         <div class="d-grid gap-2 d-md-block my-2">
             <a href="examens/create" class="btn btn-primary">Crear Examen</a>
-        </div>
+        </div> 
         <nav class="navbar navbar-light">
             <div class="container-fluid">
               <form class="d-flex">

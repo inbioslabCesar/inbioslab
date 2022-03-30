@@ -1,14 +1,7 @@
 @extends('layouts.plantillabase')
 @section('contenido')
-<div class="container">
-    <blockquote class="text-2xl font-semibold italic text-center text-gray-900">
-        When you look
-        <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
-          <span class="relative text-white">inbioslab</span>
-        </span>
-        all the time, people think that you're busy.
-    </blockquote>
-            <h1>Gestion de Categorias Modernas</h1>
+<div class="container">   
+        <h1>Gestion de Categorias</h1>
         <div class="d-grid gap-2 d-md-block my-2">
             <a href="{{ route('categorias.create') }}" class="btn btn-primary">Crear Categorias</a>
         </div>

@@ -1,17 +1,13 @@
 @extends('layouts.plantillabase')
 @section('contenido')
-<div class="container">
-    <blockquote class="text-2xl font-semibold italic text-center text-gray-900">
-        When you look
-        <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block">
-          <span class="relative text-white">inbioslab EIRL</span>
-        </span>
-        all the time, people think that you're busy.
-    </blockquote>
-            <h1>Gestion de Clientes</h1>
+<div class="container">   
+    <div class="row">
+        <h1>Gestion de Clientes</h1>
         <div class="d-grid gap-2 d-md-block my-2">
             <a href="clientes/create" class="btn btn-primary">Crear Clientes</a>
         </div>
+    </div>  
+            
         <nav class="navbar navbar-light">
             <div class="container-fluid">
               <form class="d-flex">
