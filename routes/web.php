@@ -7,7 +7,7 @@ use App\Http\Controllers\ExamenController;
 use Illuminate\Routing\RouteGroup;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
